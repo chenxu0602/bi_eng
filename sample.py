@@ -3,8 +3,8 @@
 import pandas as pd
 
 # Edit the two paths to vanorder and vaninterest csv files
-vanorder_path = '/path/to/vanorder.csv'
-vaninterest_path = '/path/to/vaninterest.csv'
+vanorder_path = 'vanorder.csv'
+vaninterest_path = 'vaninterest.csv'
 
 # Read the two csv into pandas DataFrame, parsing the datetime columns
 vanorder = pd.read_csv(vanorder_path, parse_dates=['order_datetime', 'txCreate'])
